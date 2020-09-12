@@ -6,7 +6,7 @@ body {
 }
 
 .row {
-    box-shadow: 3px 3px 7px  rgba(0,0,0,0.4), -3px -3px 7px  rgba(0,0,0,0.4);
+    box-shadow: -3px 3px 7px  rgba(0,0,0,.4), 3px -3px 7px  rgba(0,0,0,.4);
 
 }
 h1,h2,h3,h4 {
@@ -19,10 +19,20 @@ hr {
     border-color: rgba(0,0,0,0.3);
 }
  p {
-    opacity: 70%;
+    opacity: 75%;
+}
+span {
+    opacity: 55%;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 0rem;
 }
 .spacing-1 {
-    padding: 7%;
+    padding: 5%;
+}
+.para {
+    padding-left:7% ;
+    padding-right:7% ;
 }
 img {
     width: 100%;
@@ -44,15 +54,24 @@ img {
 @media screen and (max-width:576px) {
     body {
         background-image:none;
-        background-color: black;
-    }
-
-    header {
+        background-color: #1e1f23;
         background-image: url(../images/bg.jpg);
+        background-attachment: fixed;
         background-size: contain;
-        /* background-position: center; */
-        /* background-attachment: fixed; */
-        /* background-repeat: repeat-y; */
+        background-position: top;
+        background-repeat: no-repeat;
+
+
+
+    }
+    p,h1,h2,h3,h4,h5,h6 {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 10px;
+    }
+    .logo {
+        padding-bottom: 0px!important;
+        margin: 0 0 2rem 0;
     }
     .delpad {
         display: grid;
