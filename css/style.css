@@ -38,6 +38,7 @@ span {
 }
 img {
   width: 100%;
+  /* height: fit-content; */
   object-fit: cover;
 }
 .flx {
