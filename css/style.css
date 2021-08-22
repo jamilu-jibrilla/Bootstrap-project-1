@@ -3,6 +3,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  text-align: justify;
 }
 
 .row {
@@ -38,7 +39,6 @@ span {
 }
 img {
   width: 100%;
-  /* height: fit-content; */
   object-fit: cover;
 }
 .flx {
